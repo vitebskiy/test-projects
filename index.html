@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>НПП ДОЗА - 3D Viewer</title>
+    <title>3D Город - Веб версия</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- Экран загрузки -->
     <div class="loader-container" id="loader">
       <div class="loader"></div>
       <div class="loader-text">Загрузка модели...</div>
@@ -16,6 +17,8 @@
 
     <!-- Скрипты -->
     <script src="./js/bundle.js"></script>
+    <script src="./js/loaders/DRACOLoader.js"></script>
+    <script src="./js/controls/OrbitControls.js"></script>
     <script src="./js/model-uri.js"></script>
     <script src="./js/app.js"></script>
   </body>
